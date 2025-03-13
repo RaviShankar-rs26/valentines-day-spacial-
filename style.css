@@ -141,3 +141,15 @@ body {
     hsl(231, 32%, 29%) url("img5.jpg") 50% / cover;
   color: hsl(200 30% 98%);
 }
+@media screen and (max-width: 768px) {
+  .book {
+    width: 90%;
+    margin: auto;
+  }
+
+  .page {
+    width: 100%;
+    height: auto;
+    padding: 20px;
+  }
+}
