@@ -141,15 +141,30 @@ body {
     hsl(231, 32%, 29%) url("img5.jpg") 50% / cover;
   color: hsl(200 30% 98%);
 }
-@media screen and (max-width: 768px) {
-  .book {
+@media (max-width: 768px) {
+  .page {
     width: 90%;
-    margin: auto;
+    height: 90%;
   }
 
-  .page {
-    width: 100%;
-    height: auto;
-    padding: 20px;
+  .cover {
+    padding: 15px;
   }
 }
+
+/* Styles for mobile devices */
+@media (max-width: 480px) {
+  .page {
+    width: 100%;
+    margin: 5px 0;
+  }
+
+  .cover {
+    padding: 10px;
+  }
+  video{
+    width: 250px;
+    height: 240;
+  }
+}
+
